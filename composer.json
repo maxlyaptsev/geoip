@@ -4,6 +4,7 @@
   "keywords": ["bitrix", "1С Битрикс", "GeoIP"],
   "license": "MIT",
   "version": "0.1",
+  "type":"bitrix-d7-module",
   "support": {
     "www": "http://www.google.ru",
     "source": "https://github.com/maxlyaptsev/geoip.git"
@@ -15,7 +16,8 @@
     }
   ],
   "require": {
-    "php": ">=5.4.0"
+    "php": ">=5.4.0",
+    "composer/installers": "~1.0"
   },
   "autoload": {
     "psr-4": {
